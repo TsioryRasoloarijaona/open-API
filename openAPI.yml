@@ -1,0 +1,61 @@
+openapi: 3.0.3
+info:
+  title: Review API
+  version: 1.0.0
+servers:
+  - url: https://review.com
+paths:
+  /exemple: 
+    get:
+      summary: get all exemple
+      description: return all books ordered by autor 
+      operationId: getexemples
+      parameters:
+        - in: query
+          name: exemplename
+          required: false
+          schema:
+            type: string
+      responses:
+        200:
+          description: return books
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/books'
+
+    
+    put:
+      summary: create or update of a list of exemple 
+      operationId: updateExemple
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                $ref: '#/components/schemas/books'
+      responses:
+        200:
+          description: return books
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/books'
+components:
+  schemas:
+   books:
+
+      type: object
+      properties:
+        id:
+          type: string
+        exemplename:
+          type: string
+      example: 
+       id1: "00dfsdsf4"
+       exemplename1: "tsiory"
+      
+        
+
+          
