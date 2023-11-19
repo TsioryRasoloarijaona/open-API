@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9484cd2-4ce1-4b52-90d7-210d775f9c09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DBconnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annnotation/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/author/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/author/AuthorCrud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/author/MainAuthor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/author/authorOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/book/BookOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/book/CrudBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/book/MainBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/subscribers/CrudSubscribers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/subscribers/OperationsSubscribers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/subscribers/User.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2YM7n1yS0pWh2UOILlEVMnJeZyp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.MainAuthor">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="DB_user" value="prog_admin" />
+        <env name="postgres_password" value="123456" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="librabry_management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.author.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainAuthor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.author.MainAuthor" />
+      <module name="librabry_management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.author.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.book.MainBook" />
+      <module name="librabry_management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainAuthor" />
+      <item itemvalue="Application.MainBook" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainAuthor" />
+        <item itemvalue="Application.MainBook" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9484cd2-4ce1-4b52-90d7-210d775f9c09" name="Changes" comment="" />
+      <created>1700323759724</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700323759724</updated>
+      <workItem from="1700323760742" duration="5176000" />
+      <workItem from="1700336434807" duration="18284000" />
+      <workItem from="1700382417941" duration="7828000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>5</line>
+          <properties class="org.example.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/author/MainAuthor.java</url>
+          <line>10</line>
+          <properties class="org.example.author.MainAuthor" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
